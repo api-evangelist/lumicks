@@ -1,8 +1,29 @@
 aid: lumicks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumicks.png
 name: LUMICKS
-description: 'LUMICKS is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  LUMICKS is a life-science instrumentation company that builds tools to directly
+  measure molecular and cellular interactions. Its Dynamic Single-Molecule platform,
+  the C-Trap, uses optical tweezers to resolve real-time biomolecular interactions
+  at the single-molecule level, while its Cell Avidity platforms (Avidion and the
+  compact z-Movi) quantify the binding strength between immune cells and their
+  targets for immuno-oncology, CAR-T, and antibody-therapeutics research. The
+  developer surface is client-side: the official Apache-2.0 Python library
+  lumicks.pylake analyzes single-molecule optical-tweezer data exported from the
+  Bluelake acquisition software (force calibration, force-distance curve fitting,
+  kymo/scan imaging, kymotracking, population dynamics), and bluelake-scripting
+  automates instrument control. LUMICKS publishes no hosted public web API.
 url: https://raw.githubusercontent.com/api-evangelist/lumicks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health Tech
+- Life Sciences
+- Biotechnology
+- Scientific Instruments
+- Single Molecule
+- Optical Tweezers
+- Immuno-Oncology
+- Data Analysis
+- Python SDK
 apis: []
+common:
+- type: Website
+  url: https://lumicks.com/
+- type: About
+  url: https://lumicks.com/about/
+- type: Documentation
+  url: https://lumicks-pylake.readthedocs.io/en/stable/
+- type: APIReference
+  url: https://lumicks-pylake.readthedocs.io/en/stable/api.html
+- type: GettingStarted
+  url: https://lumicks-pylake.readthedocs.io/en/stable/install.html
+- type: GitHubOrganization
+  url: https://github.com/lumicks
+- type: SourceCode
+  url: https://github.com/lumicks/pylake
+- type: PrivacyPolicy
+  url: https://lumicks.com/privacy-policy/
+- type: Support
+  url: https://lumicks.com/contact/
+- type: SDKs
+  url: packages/lumicks-packages.yml
+- type: Packages
+  url: packages/lumicks-packages.yml
+- type: ChangeLog
+  url: changelog/lumicks-changelog.yml
+- type: LLMsTxt
+  url: llms/lumicks-llms.txt
+- type: WellKnown
+  url: well-known/lumicks-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
