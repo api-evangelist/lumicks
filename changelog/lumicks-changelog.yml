@@ -1,0 +1,56 @@
+generated: '2026-07-20'
+method: searched
+source: https://lumicks-pylake.readthedocs.io/en/stable/changelog.html
+description: >-
+  Structured capture of the release changelog for lumicks.pylake, the first-party
+  LUMICKS Bluelake data-analysis library. Semantic-versioned; released to PyPI and
+  conda. This artifact records the recent release window; the published changelog
+  is the source of truth.
+docs: https://lumicks-pylake.readthedocs.io/en/stable/changelog.html
+versioning:
+  scheme: semver
+  current: 1.8.0
+  artifact: packages/lumicks-packages.yml
+entries:
+  - version: '1.8.0'
+    date: '2025-10-30'
+    latest: true
+    breaking: []
+    additions:
+      - Adaptive fitting-range determination for power-spectrum force calibration
+      - Piezo tracking across different sampling rates
+      - Confocal API endpoints exposing axis information
+  - version: '1.7.0'
+    date: '2025-07-29'
+    breaking: []
+    additions:
+      - Raw calibration data access (voltage, sum_voltage, driving)
+      - Recalibration and plotting of Bluelake calibrations
+      - Asymptotic standard-error estimates for dwell-time analysis
+      - BigTIFF export support and parallel bootstrap calculation
+  - version: '1.6.2'
+    date: '2025-05-06'
+    breaking: []
+    highlights:
+      - Fixed overly pessimistic profile-likelihood confidence intervals (factor-of-two)
+      - Improved TIF file-loading error handling
+  - version: '1.6.1'
+    date: '2025-01-29'
+    breaking: []
+    highlights:
+      - Force sensitivity now returns unsigned values matching Bluelake
+      - Fixed track-position loading for base-pair calibrations
+  - version: '1.6.0'
+    date: '2025-01-09'
+    breaking: []
+    additions:
+      - Accessible calibration results via properties
+      - Diode calibration model access
+      - Bead-bead coupling correction for active calibration
+      - CSV track import
+  - version: '1.5.3'
+    date: '2024-10-29'
+    breaking: []
+    highlights:
+      - Python 3.13 support; removed numpy upper-bound pin
+      - Fixed inverted force models with scalar inputs

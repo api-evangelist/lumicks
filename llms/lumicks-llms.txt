@@ -1,0 +1,25 @@
+# LUMICKS
+
+> LUMICKS is a life-science instrumentation company building tools that directly measure molecular and cellular interactions. Its Dynamic Single-Molecule platform (C-Trap) resolves real-time biomolecular interactions using optical tweezers, and its Cell Avidity platforms (Avidion, z-Movi) quantify immune-cell binding strength for immuno-oncology research. The developer surface is client-side: a Python data-analysis library (lumicks.pylake) and instrument-automation scripting for the Bluelake acquisition software. There is no hosted public web API.
+
+## Developer libraries
+
+- [lumicks.pylake on PyPI](https://pypi.org/project/lumicks.pylake/): Official Apache-2.0 Python package (v1.8.0) for analyzing single-molecule optical-tweezer data — force calibration, force-distance curve fitting, kymo/scan imaging, kymotracking, and population dynamics. Install with `pip install lumicks.pylake` or via conda.
+- [pylake source (GitHub)](https://github.com/lumicks/pylake): Source repository for the pylake library.
+- [pylake documentation](https://lumicks-pylake.readthedocs.io/en/stable/): Tutorials, API reference, installation guide.
+- [pylake changelog](https://lumicks-pylake.readthedocs.io/en/stable/changelog.html): Dated release history.
+- [bluelake-scripting (GitHub)](https://github.com/lumicks/bluelake-scripting): First-party Python scripts for automating the Bluelake instrument-control software.
+
+## Company
+
+- [LUMICKS website](https://lumicks.com/): Products, platforms, and applications.
+- [GitHub organization](https://github.com/lumicks): Open-source repositories.
+- [Consumables store](https://store.lumicks.com/): Ordering portal for instrument consumables.
+- [Privacy policy](https://lumicks.com/privacy-policy/)
+- [Contact](https://lumicks.com/contact/)
+
+## Notes
+
+- No hosted REST/GraphQL API, no OpenAPI specification, and no OAuth/OIDC authorization server were found at probe time (2026-07-20).
+- No `/.well-known/security.txt`, `/llms.txt`, bug-bounty program, or public trust center was found.
+- Integration is performed locally against instrument-produced data files (Bluelake `.h5`) using the pylake library.

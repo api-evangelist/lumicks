@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: https://lumicks.com/
+description: >-
+  Results of probing the /.well-known/ discovery surface for the LUMICKS primary
+  web host. LUMICKS publishes no hosted web API and no OAuth/OIDC authorization
+  server, so no discovery documents are expected. Status is the HTTP code observed
+  at probe time. Absence is valid, expected data.
+hosts:
+  - host: https://lumicks.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404

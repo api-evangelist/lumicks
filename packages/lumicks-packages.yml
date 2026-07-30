@@ -1,0 +1,37 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/lumicks.pylake/
+description: >-
+  First-party LUMICKS developer libraries. LUMICKS is a scientific-instrument
+  company (C-Trap dynamic single-molecule optical tweezers; Avidion / z-Movi
+  cell-avidity platforms) whose developer surface is client-side data-analysis
+  and instrument-automation tooling for its Bluelake acquisition software rather
+  than a hosted web API. Verified against the public PyPI registry and the
+  github.com/lumicks organization. Registry HTTP status recorded at fetch time.
+packages:
+  - language: python
+    registry: pypi
+    name: lumicks.pylake
+    url: https://pypi.org/project/lumicks.pylake/
+    source: https://github.com/lumicks/pylake
+    docs: https://lumicks-pylake.readthedocs.io/en/stable/
+    install: pip install lumicks.pylake
+    version: 1.8.0
+    license: Apache-2.0
+    official: true
+    status: 200
+    note: >-
+      Bluelake data-analysis tools for single-molecule optical-tweezer data —
+      force calibration, FD-curve fitting, kymo/scan imaging, kymotracking,
+      population dynamics. Also installable via conda.
+  - language: python
+    registry: github
+    name: bluelake-scripting
+    url: https://github.com/lumicks/bluelake-scripting
+    source: https://github.com/lumicks/bluelake-scripting
+    install: git clone https://github.com/lumicks/bluelake-scripting
+    official: true
+    status: 200
+    note: >-
+      First-party Python scripts for automating the Bluelake instrument-control
+      software. Distributed as a repository, not published to a package registry.
