@@ -64,6 +64,76 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LUMICKS is a company surfaced as a portfolio company of softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting the enrichment pipeline.
+LUMICKS is a life-science instrumentation company that builds tools to directly measure molecular and cellular interactions. Its Dynamic Single-Molecule platform, the C-Trap, uses optical tweezers to resolve real-time biomolecular interactions at the single-molecule level, while its Cell Avidity platforms (Avidion and the compact z-Movi) quantify the binding strength between immune cells and their targets for immuno-oncology, CAR-T, and antibody-therapeutics research. The developer surface is client-side: the official Apache-2.0 Python library lumicks.pylake analyzes single-molecule optical-tweezer data exported from the Bluelake acquisition software (force calibration, force-distance curve fitting, kymo/scan imaging, kymotracking, population dynamics), and bluelake-scripting automates instrument control. LUMICKS publishes no hosted public web API.
 
-Backed by: softbank-vision-fund
+**Areas:** Company · Health Tech · Life Sciences · Biotechnology · Scientific Instruments · Single Molecule · Optical Tweezers · Immuno-Oncology · Data Analysis · Python SDK
+
+## LUMICKS on APIs.io
+
+Everything profiled for LUMICKS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lumicks/](https://apis.io/providers/lumicks/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lumicks.com/)
+- [Documentation](https://lumicks-pylake.readthedocs.io/en/stable/)
+- [Getting started](https://lumicks-pylake.readthedocs.io/en/stable/install.html)
+- [API reference](https://lumicks-pylake.readthedocs.io/en/stable/api.html)
+- [Support](https://lumicks.com/contact/)
+- [Blog](https://www.lumicks.com/news)
+- [Privacy policy](https://lumicks.com/privacy-policy/)
+- [GitHub](https://github.com/lumicks)
+
+## API Evangelist rating
+
+**Kin Score 20.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 3.1** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lumicks/](https://apis.io/providers/lumicks/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LUMICKS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lumicks/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
